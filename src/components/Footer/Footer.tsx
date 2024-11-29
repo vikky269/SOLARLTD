@@ -4,11 +4,11 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
   <div className="flex flex-col bg-gray-100">
-     <div className="bg-gray-100 pt-12 flex justify-between">
+     <div className="bg-gray-100 pt-12  gap-4 flex justify-between">
         {/** LOGO AND COMPANY DESCRIPTION */}
-      <div className="px-6 flex flex-col w-full md:w-1/3 max-w-lg">
-        <img src="/solar.png" alt="" className=" object-contain cursor-pointer" />
-        <span className="text-sm font-medium">
+      <div className="px-3 md:px-6 flex flex-col w-full md:w-1/3 max-w-lg">
+        <img src="/solar.png" alt="" className=" object-contain cursor-pointer " />
+        <span className=" text-[12px] md:text-sm font-medium">
          We Can Solar Ltd provides innovative renewable energy solutions and electrical products,
          including power banks and solar-powered appliances, ensuring eco-friendly and 
          reliable power for all needs.
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
 
      {/** USEFUL LINKS */}
-      <div className=" flex flex-col gap-3 w-full md:w-1/3">
+      <div className=" flex flex-col gap-3 w-full md:w-1/3 px-5">
               <div className="cursor-pointer flex flex-col gap-2">
                   <span className="font-bold text-2xl">Useful Links</span>
                   <Link to="/" className="hover:text-[#F7931E]">Multiple Branches</Link>
@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
 
       {/** CONTACT */}
-      <div className=" flex flex-col gap-3 md:w-1/3 mt-4 md:mt-0">
+      <div className=" flex flex-col gap-3 md:w-1/3 mt-4 md:mt-0 px-5">
               <div>
                   <h2 className="font-bold text-xl">Contact Details</h2>
                   <p>Address: 3548 Columbia Mine Road, Wheeling, West Virginia, 26003 </p>
