@@ -31,8 +31,8 @@ const responsive = {
 const HeroCarousel:React.FC = () => {
   return (
 
-      <Carousel
-      className='bg-gray-200 mt-8'
+      <Carousel 
+      className='bg-gray-200 mt-8 hidden md:block'
           responsive={responsive}
           swipeable={true}
           draggable={false}
