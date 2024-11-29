@@ -5,7 +5,7 @@ import { FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return ( 
-    <div className="flex items-center justify-between w-full py-4 px-2">
+    <div className="flex items-center justify-between w-full py-1 px-2">
       <Link to="/" className="hover:scale-[1.02]">
           <img src="/solar.png" className="w-48 h-24 p-1 cursor-pointer" />
       </Link>
