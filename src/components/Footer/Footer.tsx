@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
-<div className="flex flex-col bg-gray-100">
+  <div className="flex flex-col bg-gray-100">
      <div className="bg-gray-100 pt-12 flex justify-between">
         {/** LOGO AND COMPANY DESCRIPTION */}
       <div className="px-6 flex flex-col w-full md:w-1/3 max-w-lg">
@@ -72,16 +72,7 @@ const Footer = () => {
 
           <div className="mt-20 text-center text-lg font-bold border-gray-200 border-2 py-4">
               <p>
-                  &copy; {new Date().getFullYear()} We can Solar Ltd. Made by{' '}
-                  <a
-                      href="https://themehunk.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-[#F7931E] hover:underline"
-                  >
-                      Amune victor's
-                  </a>{' '}
-                  WordPress Theme.
+                  &copy; {new Date().getFullYear()} We can Solar Ltd.
               </p>
 
           </div>

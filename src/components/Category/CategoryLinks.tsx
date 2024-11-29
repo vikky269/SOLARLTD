@@ -36,7 +36,7 @@ const CategoryLinks = () => {
     <div ref={dropdownRef} className=" relative border-gray-300 border-2 px-4 py-[2px] flex items-center gap-4">
 
       <div onClick={toggleDropdown} className="bg-[#3A9B34] rounded-md flex items-center p-2 gap-4 cursor-pointer">
-        <FaIndent  size={30} className="text-white "/>
+        <FaIndent  size={25} className="text-white "/>
         <span className="text-2xl text-white">All Categories</span>
       </div>
 
