@@ -9,7 +9,7 @@ const Navbar = () => {
       {/* Mobile Layout */}
       <div className="flex flex-col items-center justify-between md:hidden">
         <div className="flex items-center justify-between w-full">
-          <Link to="/" className="hover:scale-[1.02]">
+          <Link to="/" className="hover:scale-[1.02] pt-2">
             <img src="/solar.png" className="w-25 h-20 p-1 cursor-pointer" />
           </Link>
           <div className="flex gap-4 px-2">
