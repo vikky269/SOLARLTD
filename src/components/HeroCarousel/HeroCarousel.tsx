@@ -32,11 +32,11 @@ const HeroCarousel:React.FC = () => {
   return (
 
       <Carousel 
-      className='bg-gray-200 mt-8'
+      className=' hidden md:bg-gray-200 mt-8'
           responsive={responsive}
           swipeable={true}
           draggable={false}
-          showDots={true}
+          showDots={false}
           ssr={true} // means to render carousel on server-side.
           infinite={true}
          // autoPlay={deviceType !== "mobile" ? true : false}
@@ -50,7 +50,9 @@ const HeroCarousel:React.FC = () => {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
       >
-          <div className='mt-6 flex justify-center items-center gap-8'>
+
+          
+          <div className="hidden mt-6 md:flex justify-center items-center gap-8">
               {/**CAROUSEL IMAGE */}
               <div className='cursor-pointer'>
                   <img src="/bike_4.png" alt="" />
@@ -84,7 +86,7 @@ const HeroCarousel:React.FC = () => {
               </div>
           </div>
 
-          <div className='mt-6 flex justify-center items-center gap-8'>
+          <div className='hidden mt-6 md:flex justify-center items-center gap-8'>
               {/**CAROUSEL IMAGE */}
               <div className='cursor-pointer'>
                   <img src="/bike_3.png" alt="" />
@@ -120,7 +122,7 @@ const HeroCarousel:React.FC = () => {
 
 
 
-          <div className='mt-6 flex justify-center items-center gap-8'>
+          <div className=' hidden mt-6 md:flex justify-center items-center gap-8'>
               {/**CAROUSEL IMAGE */}
               <div className='cursor-pointer'>
                   <img src="/bike_4.png" alt="" />
@@ -157,7 +159,7 @@ const HeroCarousel:React.FC = () => {
 
 
 
-          <div className='mt-6 flex justify-center items-center gap-8'>
+          <div className='hidden mt-6 md:flex justify-center items-center gap-8'>
               {/**CAROUSEL IMAGE */}
               <div className='cursor-pointer flex items-center justify-center pl-12'>
                   <img src="/bike_3.png" alt=""  className='object-center'/>
@@ -190,7 +192,9 @@ const HeroCarousel:React.FC = () => {
                   </div>
               </div>
           </div>
+          
 
+        
       </Carousel>
     
   )

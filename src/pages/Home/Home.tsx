@@ -7,7 +7,7 @@ const Home = () => {
        <HeroCarousel />
 
        <div className="mb-5 p-8">
-          <span className="font-bold text-5xl border-b-4 border-black pb-4">Latest Products</span>
+          <span className="font-bold inline-block text-5xl max-w-[200px] border-b-4 border-black pb-2">Latest Products</span>
        </div>
 
          <div className="p-8">

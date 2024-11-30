@@ -4,11 +4,11 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
   <div className="flex flex-col bg-gray-100">
-     <div className="bg-gray-100 pt-12  gap-4 flex justify-between">
+     <div className="bg-gray-100 pt-12  gap-4 flex flex-col md:flex-row justify-between">
         {/** LOGO AND COMPANY DESCRIPTION */}
       <div className="px-3 md:px-6 flex flex-col w-full md:w-1/3 max-w-lg">
-        <img src="/solar.png" alt="" className=" object-contain cursor-pointer " />
-        <span className=" text-[12px] md:text-sm font-medium">
+        <img src="/solar.png" alt="" className="cursor-pointer" />
+        <span className=" text-[14px] md:text-sm font-medium">
          We Can Solar Ltd provides innovative renewable energy solutions and electrical products,
          including power banks and solar-powered appliances, ensuring eco-friendly and 
          reliable power for all needs.

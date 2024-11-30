@@ -7,7 +7,9 @@ const Layout = () => {
     <div>
       <div>
         <Navbar />
-        <CategoryLinks />
+         <div className="hidden md:block">
+           <CategoryLinks />
+         </div>
       </div>
 
       <main>
