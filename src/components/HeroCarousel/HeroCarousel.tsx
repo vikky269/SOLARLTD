@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import CarouselItem from './CarouselItem';
 
 const responsive = {
     superLargeDesktop: {
@@ -22,10 +22,29 @@ const responsive = {
       items: 1
     }
   };
-
-//   interface Props {
-//     deviceType?: string;
-//   }
+  const carouselData = [
+    {
+      image: '/bike_4.png',
+      title: 'Innovation',
+      description: `A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions, offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.`,
+    },
+    {
+      image: '/bike_3.png',
+      title: 'Innovation',
+      description: `A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions, offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.`,
+    },
+    {
+      image: '/bike_4.png',
+      title: 'Innovation',
+      description: `A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions, offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.`,
+    },
+    {
+      image: '/bike_3.png',
+      title: 'Innovation',
+      description: `A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions, offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.`,
+    },
+  ];
+  
 
 
 const HeroCarousel:React.FC = () => {
@@ -36,10 +55,10 @@ const HeroCarousel:React.FC = () => {
           responsive={responsive}
           swipeable={true}
           draggable={false}
-          showDots={false}
+          showDots={true}
           ssr={true} // means to render carousel on server-side.
           infinite={true}
-         // autoPlay={deviceType !== "mobile" ? true : false}
+         //autoPlay={deviceType !== "mobile" ? true : false}
           autoPlaySpeed={1000}
           keyBoardControl={true}
           customTransition="all .5"
@@ -50,148 +69,15 @@ const HeroCarousel:React.FC = () => {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
       >
-
-          
-          <div className="hidden mt-6 md:flex justify-center items-center gap-8">
-              {/**CAROUSEL IMAGE */}
-              <div className='cursor-pointer'>
-                  <img src="/bike_4.png" alt="" />
-              </div>
-
-              {/**CAROUSEL TEXT */}
-              <div className='flex flex-col w-full md:w-1/2'>
-                  <span className='text-xl uppercase tracking-wide text-black font-bold mb-4'>Innovation</span>
-                  <div>
-                      <span className='text-6xl font-bold text-black'>Premium Gadgets</span>
-                  </div>
-
-                  <p className='leading-8 font-normal mt-6 text-[20px]'>
-                      A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions,
-                      offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.
-                  </p>
-
-                  <div className='flex items-center cursor-pointer mt-6 gap-5'>
-                      <Link to="/">
-                          <button className='py-2 px-6 text-lg  text-white bg-[#3A9B34] rounded-md hover:bg-[#2D832F] transition-all duration-300'>
-                              Shop now
-                          </button>
-                      </Link>
-
-                      <Link to="/">
-                          <button className='py-2 px-6 text-lg  text-white bg-[#3A9B34] rounded-md hover:bg-[#2D832F] transition-all duration-300'>
-                              Know more
-                          </button>
-                      </Link>
-                  </div>
-              </div>
-          </div>
-
-          <div className='hidden mt-6 md:flex justify-center items-center gap-8'>
-              {/**CAROUSEL IMAGE */}
-              <div className='cursor-pointer'>
-                  <img src="/bike_3.png" alt="" />
-              </div>
-
-              {/**CAROUSEL TEXT */}
-              <div className='flex flex-col w-full md:w-1/2'>
-                  <span className='text-xl uppercase tracking-wide text-black font-bold mb-4'>Innovation</span>
-                  <div>
-                      <span className='text-6xl font-bold text-black'>Premium Gadgets</span>
-                  </div>
-
-                  <p className='leading-8 font-normal mt-6 text-[20px]'>
-                      A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions,
-                      offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.
-                  </p>
-
-                  <div className='flex items-center cursor-pointer mt-6 gap-5'>
-                      <Link to="/">
-                          <button className='py-2 px-6 text-lg  text-white bg-[#3A9B34] rounded-md hover:bg-[#2D832F] transition-all duration-300'>
-                              Shop now
-                          </button>
-                      </Link>
-
-                      <Link to="/">
-                          <button className='py-2 px-6 text-lg  text-white bg-[#3A9B34] rounded-md hover:bg-[#2D832F] transition-all duration-300'>
-                              Know more
-                          </button>
-                      </Link>
-                  </div>
-              </div>
-          </div>
-
-
-
-          <div className=' hidden mt-6 md:flex justify-center items-center gap-8'>
-              {/**CAROUSEL IMAGE */}
-              <div className='cursor-pointer'>
-                  <img src="/bike_4.png" alt="" />
-              </div>
-
-              {/**CAROUSEL TEXT */}
-              <div className='flex flex-col w-full md:w-1/2'>
-                  <span className='text-xl uppercase tracking-wide text-black font-bold mb-4'>Innovation</span>
-                  <div>
-                      <span className='text-6xl font-bold text-black'>Premium Gadgets</span>
-                  </div>
-
-                  <p className='leading-8 font-normal mt-6 text-[20px]'>
-                      A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions,
-                      offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.
-                  </p>
-
-                  <div className='flex items-center cursor-pointer mt-6 gap-5'>
-                      <Link to="/">
-                          <button className='py-2 px-6 text-lg  text-white bg-[#3A9B34] rounded-md hover:bg-[#2D832F] transition-all duration-300'>
-                              Shop now
-                          </button>
-                      </Link>
-
-                      <Link to="/">
-                          <button className='py-2 px-6 text-lg  text-white bg-[#3A9B34] rounded-md hover:bg-[#2D832F] transition-all duration-300'>
-                              Know more
-                          </button>
-                      </Link>
-                  </div>
-              </div>
-          </div>
-
-
-
-
-          <div className='hidden mt-6 md:flex justify-center items-center gap-8'>
-              {/**CAROUSEL IMAGE */}
-              <div className='cursor-pointer flex items-center justify-center pl-12'>
-                  <img src="/bike_3.png" alt=""  className='object-center'/>
-              </div>
-
-              {/**CAROUSEL TEXT */}
-              <div className='flex flex-col w-full md:w-1/2'>
-                  <span className='text-xl uppercase tracking-wide text-black font-bold mb-4'>Innovation</span>
-                  <div>
-                      <span className='text-6xl font-bold text-black'>Premium Gadgets</span>
-                  </div>
-
-                  <p className='leading-8 font-normal mt-6 text-[20px]'>
-                      A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions,
-                      offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.
-                  </p>
-
-                  <div className='flex items-center cursor-pointer mt-6 gap-5'>
-                      <Link to="/">
-                          <button className='py-2 px-6 text-lg  text-white bg-[#3A9B34] rounded-md hover:bg-[#2D832F] transition-all duration-300'>
-                              Shop now
-                          </button>
-                      </Link>
-
-                      <Link to="/">
-                          <button className='py-2 px-6 text-lg  text-white bg-[#3A9B34] rounded-md hover:bg-[#2D832F] transition-all duration-300'>
-                              Know more
-                          </button>
-                      </Link>
-                  </div>
-              </div>
-          </div>
+           
+              {carouselData.map((item, index) => (
+                  <CarouselItem
+                      key={index}
+                      image={item.image}
+                      title={item.title}
+                      description={item.description}
+                  />
+              ))}
           
 
         
