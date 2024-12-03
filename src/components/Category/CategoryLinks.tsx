@@ -61,7 +61,7 @@ const CategoryLinks = () => {
        <div className="flex gap-8">
        {category.map((item)=> {
             return (
-                <Link  to={generateLink(item)} className="cursor-pointer hover:scale-[1.02] hover:text-[#3A9B34] transition-all duration-300" key={item}>
+                <Link  to={generateLink(item)} className="cursor-pointer hover:scale-[1.02] hover:text-black transition-all duration-300" key={item}>
                     <span key={item}>{item}</span>
                 </Link>
             )

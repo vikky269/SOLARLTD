@@ -60,9 +60,9 @@ const HeroCarousel:React.FC = () => {
 
               {/**CAROUSEL TEXT */}
               <div className='flex flex-col w-full md:w-1/2'>
-                  <span className='text-xl uppercase tracking-wide text-[#3A9B34] font-bold mb-4'>Innovation</span>
+                  <span className='text-xl uppercase tracking-wide text-black font-bold mb-4'>Innovation</span>
                   <div>
-                      <span className='text-6xl font-bold text-[#3A9B34]'>Premium Gadgets</span>
+                      <span className='text-6xl font-bold text-black'>Premium Gadgets</span>
                   </div>
 
                   <p className='leading-8 font-normal mt-6 text-[20px]'>
@@ -94,9 +94,9 @@ const HeroCarousel:React.FC = () => {
 
               {/**CAROUSEL TEXT */}
               <div className='flex flex-col w-full md:w-1/2'>
-                  <span className='text-xl uppercase tracking-wide text-[#3A9B34] font-bold mb-4'>Innovation</span>
+                  <span className='text-xl uppercase tracking-wide text-black font-bold mb-4'>Innovation</span>
                   <div>
-                      <span className='text-6xl font-bold text-[#3A9B34]'>Premium Gadgets</span>
+                      <span className='text-6xl font-bold text-black'>Premium Gadgets</span>
                   </div>
 
                   <p className='leading-8 font-normal mt-6 text-[20px]'>
@@ -130,9 +130,9 @@ const HeroCarousel:React.FC = () => {
 
               {/**CAROUSEL TEXT */}
               <div className='flex flex-col w-full md:w-1/2'>
-                  <span className='text-xl uppercase tracking-wide text-[#3A9B34] font-bold mb-4'>Innovation</span>
+                  <span className='text-xl uppercase tracking-wide text-black font-bold mb-4'>Innovation</span>
                   <div>
-                      <span className='text-6xl font-bold text-[#3A9B34]'>Premium Gadgets</span>
+                      <span className='text-6xl font-bold text-black'>Premium Gadgets</span>
                   </div>
 
                   <p className='leading-8 font-normal mt-6 text-[20px]'>
@@ -167,9 +167,9 @@ const HeroCarousel:React.FC = () => {
 
               {/**CAROUSEL TEXT */}
               <div className='flex flex-col w-full md:w-1/2'>
-                  <span className='text-xl uppercase tracking-wide text-[#3A9B34] font-bold mb-4'>Innovation</span>
+                  <span className='text-xl uppercase tracking-wide text-black font-bold mb-4'>Innovation</span>
                   <div>
-                      <span className='text-6xl font-bold text-[#3A9B34]'>Premium Gadgets</span>
+                      <span className='text-6xl font-bold text-black'>Premium Gadgets</span>
                   </div>
 
                   <p className='leading-8 font-normal mt-6 text-[20px]'>

@@ -58,7 +58,7 @@ const Navbar = () => {
               <li key={item} className="p-2 hover:bg-gray-100">
                 <Link
                   to={generateLink(item)}
-                  className="block text-gray-700 hover:text-[#3A9B34]"
+                  className="block text-gray-700 hover:text-black"
                   onClick={() => setDropdownVisible(false)} // Close dropdown on link click
                 >
                   {item}
