@@ -33,7 +33,7 @@ const SignupForm: React.FC = () => {
   };
 
   // Handle form submission
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
 
     // Basic validation check (you can enhance this as needed)

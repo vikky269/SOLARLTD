@@ -37,7 +37,7 @@ const HomeProductCard: React.FC<ProductCardProps> = ({ product, isHovered, onHov
             {/* Add to Cart & Wishlist Icon */}
             {isHovered &&
                 (<div className="absolute bottom-3 left-3 flex gap-3 items-center">
-                    <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+                    <button className="px-4 py-2 bg-black text-white rounded-lg">
                         Add to Cart
                     </button>
                     <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200">
