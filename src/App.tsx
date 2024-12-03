@@ -9,6 +9,7 @@ import ProductCategory from "./pages/ProductCategory/ProductCategory"
 import Shop from "./pages/Shop/Shop"
 import Login from "./pages/Auth/Login/Login"
 import Cart from "./pages/Cart/Cart"
+import SignupForm from "./pages/Auth/SignUp/Signup"
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
             <Route path="/favorite" element={<Favorite />}></Route>
             <Route path="/Shop" element={<Shop />}></Route>
             <Route path="/Login" element={<Login />}></Route>
+            <Route path="/sign-up" element={<SignupForm />}></Route>
             <Route path="/cart" element={<Cart />}></Route>
             <Route path="product-category/:categoryName" element={<ProductCategory />} />
           </Route>

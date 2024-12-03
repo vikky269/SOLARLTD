@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // Define the types for the form data
 interface FormData {
@@ -95,11 +96,15 @@ const LoginForm: React.FC = () => {
         <div>
           <button
             type="submit"
-            className="w-full p-2 bg-black text-white rounded-md transition"
+            className="w-full p-2 bg-black text-white rounded-md transition mb-6"
           >
             Login
           </button>
         </div>
+
+        <span>Don't have an account yet ?
+             <Link to="/sign-up" className='cursor-pointer hover:text-black ml-6'>Sign up</Link>
+          </span>
       </form>
     </div>
     </div>
