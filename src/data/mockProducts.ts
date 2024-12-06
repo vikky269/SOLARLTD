@@ -1,87 +1,87 @@
 const products = [
     {
-      id: 1,
-      name: "Wireless Headphones",
+      id: "1",
+      name: "Solar Ride",
       price: 44.00,
-      image: "/product1.png", // Replace with actual image path
+      image: "/bike_4.png", // Replace with actual image path
       sale: true,
-      description: "High-quality wireless headphones for immersive sound.",
+      description: "Solar-powered bike designed for efficient and sustainable commuting.",
     },
     {
-      id: 2,
-      name: "Laptop Pro",
+      id: "2",
+      name: "Sun Cycle",
       price: 66.00,
       priceRange: "$66.00 – $88.00",
-      image: "/product23.png", // Replace with actual image path
+      image: "/bike_4.png", // Replace with actual image path
       sale: true,
-      description: "Sleek and powerful laptop for work and play.",
+      description: "Eco-friendly bike powered by solar energy for effortless travel.",
     },
     {
-      id: 3,
-      name: "Tablet",
+      id: "3",
+      name: "Helio Bike",
       price: 50.00,
       priceRange: "$50.00 – $75.00",
-      image: "/product17.png", // Replace with actual image path
+      image: "/bike_4.png", // Replace with actual image path
       sale: true,
-      description: "Portable tablet with a stunning display.",
+      description: "Futuristic solar bike offering long-range travel with zero emissions.",
     },
     {
-      id: 4,
-      name: "USB Cable",
+      id: "4",
+      name: "Solar Strider",
       price: 99.00,
       originalPrice: 100.00,
-      image: "/product15.png", // Replace with actual image path
+      image: "/bike_4.png", // Replace with actual image path
       sale: true,
-      description: "Durable and fast-charging USB cable.",
+      description: "Solar-powered bike ideal for urban and outdoor adventures.",
     },
     {
-      id: 5,
-      name: "Bluetooth Speaker",
+      id: "5",
+      name: "Photon Rider",
       price: 41.00,
       originalPrice: 55.00,
-      image: "/product19.png", // Replace with actual image path
+      image: "/bike_4.png", // Replace with actual image path
       sale: true,
-      description: "Portable speaker with powerful sound.",
+      description: "High-performance solar bike with advanced charging technology.",
     },
     {
-      id: 6,
-      name: "Earphones",
+      id: "6",
+      name: "Eco Zoom",
       price: 25.00,
-      image: "/product21.png", // Replace with actual image path
+      image:"/bike_4.png", // Replace with actual image path
       sale: true,
-      description: "Compact and comfortable earphones for everyday use.",
+      description: "Sustainable, solar-powered bike perfect for fast, eco-conscious rides.",
     },
     {
-      id: 7,
-      name: "Gaming Laptop",
+      id: "7",
+      name: "Ray Velo",
       price: 120.00,
-      image: "/product2.png", // Replace with actual image path
+      image: "/bike_4.png", // Replace with actual image path
       sale: true,
-      description: "High-performance laptop for gaming and more.",
+      description: "Sleek solar bike combining speed and sustainability.",
     },
     {
-      id: 8,
-      name: "Smart Speaker",
+      id: "8",
+      name: "Solar Spin",
       price: 75.00,
-      image: "/products11.png", // Replace with actual image path
+      image: "/bike_4.png", // Replace with actual image path
       sale: false,
-      description: "Smart speaker with voice assistant integration.",
+      description: "Efficient solar-powered bike built for smooth, eco-friendly rides.",
     },
     {
-        id: 9,
-        name: "Smart Speaker",
+        id: "9",
+        name: "Bright Path",
         price: 75.00,
-        image: "/product19.png", // Replace with actual image path
+        image: "/bike_4.png", // Replace with actual image path
         sale: false,
-        description: "Smart speaker with voice assistant integration.",
+        description: "Solar bike offering an energy-efficient solution for daily commuting.",
       },
       {
-        id: 10,
-        name: "Smart Speaker",
+        id: "10",
+        name: "Sun Motion",
         price: 75.00,
-        image: "/product19.png", // Replace with actual image path
+        image: "/bike_4.png", // Replace with actual image path
         sale: false,
-        description: "Smart speaker with voice assistant integration.",
+        description: "Solar-powered bike designed for reliable and eco-friendly motion.",
       },
   ];
   

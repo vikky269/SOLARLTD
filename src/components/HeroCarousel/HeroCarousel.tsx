@@ -43,6 +43,16 @@ const responsive = {
       title: 'Innovation',
       description: `A solar bike is an eco-friendly electric bike powered by solar energy, combining sustainable transportation with effortless mobility. It reduces carbon emissions, offers a smooth ride with minimal maintenance, and is ideal for cost-effective, clean commuting.`,
     },
+    {
+      image: '/wecan3.png',
+      title: ' Latest Innovation',
+      title2: 'WeCan 03 Solar Bike',
+      description: `The WeCan03 Electric Bike is a testament to our
+                dedication to innovation and sustainability. With its
+                cutting-edge design, efficiency, and reliability, it’s the
+                perfect solution for modern commuters looking to embrace a
+                greener future.`,
+    },
   ];
   
 
@@ -51,7 +61,7 @@ const HeroCarousel:React.FC = () => {
   return (
 
       <Carousel 
-      className=' hidden md:bg-gray-200 mt-8'
+      className=' hidden bg-slate-100 mt-8 md:h-screen mb-8'
           responsive={responsive}
           swipeable={true}
           draggable={false}

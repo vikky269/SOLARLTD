@@ -4,7 +4,10 @@ import { useState } from 'react'
 import HomeProductCard from './HomeProductCard'
 const HomeProductList:React.FC = () => {
 
-    const [hoveredCardId, setHoveredCardId] = useState<number | null>(null)
+    // const [hoveredCardId, setHoveredCardId] = useState<number | null>(null)
+
+
+    const [hoveredCardId, setHoveredCardId] = useState<string | null>(null)
 
   return (
 

@@ -5,7 +5,7 @@ import { LuHeart } from 'react-icons/lu'
 
 interface ProductCardProps {
     product: {
-        id: number;
+        id: string;
         image: string;
         name: string;
         sale: boolean;
@@ -20,7 +20,9 @@ interface ProductCardProps {
 
 const HomeProductCard: React.FC<ProductCardProps> = ({ product, isHovered, onHover, onLeave }) => {
     return (
-        <div key={product.id} className="relative px-4 py-3 rounded-lg hover:bg-white hover:rounded-lg hover:shadow-xl transition-all w-full"
+       <Link to={`/product/${product.id}`}>
+       
+       <div key={product.id} className="relative px-4 py-3 rounded-lg hover:bg-white hover:rounded-lg hover:shadow-xl transition-all w-full"
             onMouseEnter={onHover} // Trigger hover
             onMouseLeave={onLeave} // Reset hover
             style={{ minHeight: '350px' }} 
@@ -48,6 +50,8 @@ const HomeProductCard: React.FC<ProductCardProps> = ({ product, isHovered, onHov
                 </div>)}
 
         </div>
+        
+       </Link>
     )
 }
 

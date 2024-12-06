@@ -2,7 +2,7 @@ import { FaIndent } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import { useState, useRef,useEffect } from "react"
 
-const category = ["Home", "Shop", "Most Popular", "Onsale", "Computer & Laptop", "Home Appliances", "Contact us" ]
+const category = ["Home", "Shop", "Most Popular", "Onsale", "Computer & Laptop", "Home Appliances", "About us" ]
 
 const category2 = ["Accesories", "Audio", "Camera", "New Arrival", "Computer & Laptop", "Home Appliances", "On sale", "Smart Phones", "Video Games", "Watches", "Electric Iron", "Power Bank" ]
 const CategoryLinks = () => {
@@ -13,7 +13,7 @@ const CategoryLinks = () => {
     const generateLink = (item: string) => {
          if (item === "Home") return "/"
          if (item === "Shop") return "/Shop"
-         if (item  === "Contact us") return "/contact"
+         if (item  === "About us") return "/about"
         const formattedCategory = item.toLowerCase().replace(/ & /g, "-").replace(/\s+/g, "-")
         return `/product-category/${formattedCategory}`
       }

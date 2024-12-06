@@ -43,7 +43,7 @@ const Navbar = () => {
 
         <div className="flex items-center justify-between w-full">
           <Link to="/" className="hover:scale-[1.02] pt-2">
-            <img src="/solar.png" className="w-25 h-20 p-1 cursor-pointer" />
+            <img src="/solar.png" className="w-15 h-20 p-1 cursor-pointer" />
           </Link>
 
           <FaIndent  size={25} className="text-black  cursor-pointer" 
@@ -71,13 +71,13 @@ const Navbar = () => {
 
           <div className="flex gap-4 px-2">
             <Link to="/favorite">
-              <LuHeart size={25} className="text-black" />
+              <LuHeart size={20} className="text-black" />
             </Link>
             <Link to="/Login">
-              <FaUser size={25} className="text-black" />
+              <FaUser size={20} className="text-black" />
             </Link>
             <Link to="/cart">
-              <FaCartArrowDown size={25} className="text-black" />
+              <FaCartArrowDown size={20} className="text-black" />
             </Link>
           </div>
 
